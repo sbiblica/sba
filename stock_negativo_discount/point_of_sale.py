@@ -210,7 +210,7 @@ class sbg_pos_order_line(osv.osv):
             return result
         
         for group in current_user.groups_id:
-            if group.name == "SBG - Modificar precio y descuento":
+            if group.name == "SBA - Modificar precio y descuento":
                 no_permiso = 0
 
         if no_permiso == 1:
